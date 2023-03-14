@@ -16,6 +16,10 @@ import Logo from "./images/logo.svg";
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
+import CodeAdvisor from "./images/CodeAdvisorScreen.png";
+import BSC_Payments from "./images/BSC_Payments.png";
+import PI_Countries from "./images/PI_Countries.png";
+import RickAndMorty from "./images/RickAndMorty.png";
 // If you change the import names above then you need to change the export names below
 export { HeroLight as Light };
 export { HeroDark as Dark };
@@ -24,7 +28,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "CodigoJaguar";
 
 // Blog link icon (imported above)
 export const Blog = <FaLink />;
@@ -34,7 +38,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I'm always eager to learn and collaborate with others, so feel free to reach out to me with any questions or opportunities below in my Contact section. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
 
 /* Skills
  ************************************************************** 
@@ -95,7 +99,7 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["CodeAdvisor", "RickAndMorty", "PI_Countries","BSC_Payments_Processor_PF"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
@@ -103,6 +107,23 @@ export const projectCardImages = [
     name: "example-1",
     image: Logo,
   },
+  {
+    name: "CodeAdvisor",
+    image: CodeAdvisor,
+  },
+  {
+    name: "BSC_Payments_Processor_PF",
+    image: BSC_Payments,
+  },
+  {
+    name: "PI_Countries",
+    image: PI_Countries,
+  },
+  {
+    name: "RickAndMorty",
+    image: RickAndMorty,
+  },
+
 ];
 
 /* Contact Info
