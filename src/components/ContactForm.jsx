@@ -12,6 +12,7 @@ export default function ContactForm() {
   const [danger, setDanger] = React.useState(false);
   const [dangerMessage, setDangerMessage] = React.useState(null);
   const { theme } = useAppContext();
+  
 
   async function postData(data) {
     const response = await fetch(formspreeUrl, {
@@ -22,6 +23,7 @@ export default function ContactForm() {
         "Content-Type": "application/json",
       },
     });
+    console.log(response)
     return response;
   }
 

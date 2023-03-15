@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "@reduxjs/toolkit": "^1.9.3",
     "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",
