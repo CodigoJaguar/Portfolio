@@ -7,6 +7,8 @@ import {
   FaGitAlt,
   FaGithubSquare,
   FaLink,
+  FaPython,
+  FaJava,
 } from "react-icons/fa";
 import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
 
@@ -90,10 +92,21 @@ export const skillData = [
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <FaPython className="display-4" />,
+    name: "Python",
+  },
+  {
+    id: 11,
+    skill: <FaJava className="display-4" />,
+    name: "Java",
+  },
+
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+export const resume = 'https://firebasestorage.googleapis.com/v0/b/fb-2do.appspot.com/o/CV_24MAR23_ESP.pdf?alt=media&token=be5973b0-44fd-451a-9a1a-7b01459f2c9d';
 
 /* Projects
  ************************************************************** 
